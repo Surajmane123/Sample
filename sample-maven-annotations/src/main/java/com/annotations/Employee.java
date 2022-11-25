@@ -1,6 +1,4 @@
 package com.annotations;
-
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,6 +29,7 @@ public class Employee {
 		this.name = name;
 	}
 	public String getAddress() {
+		
 		return address;
 	}
 	public void setAddress(String address) {
