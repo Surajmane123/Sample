@@ -18,8 +18,6 @@ public class Employee {
 	private String name;
 	@Column
 	private String address;
-	private String gouruo;
-	
 	
 	public Employee(String name, String address) {
 		super();
@@ -43,6 +41,10 @@ public class Employee {
 	}
 	public void setEmpno(int empno) {
 		this.empno = empno;
+	}
+	
+	int squreIt(int a) {
+		return a*a
 	}
 	
 }
