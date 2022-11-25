@@ -18,6 +18,7 @@ public class Employee {
 	private String name;
 	@Column
 	private String address;
+	private String gouruo;
 	
 	
 	public Employee(String name, String address) {
